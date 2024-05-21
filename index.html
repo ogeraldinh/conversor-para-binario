@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Conversor Binário</title>
+</head>
+<body>
+    <div class="box">
+        <h1>Conversor Binário</h1>
+        <div class="input-box">
+            <div class="inteiro">
+                <label for="inteiro">Número Inteiro</label>
+                <input type="text" name="inteiro" id="inteiro">
+            </div>
+
+            <div class="btn-action">
+                <button id="btn_converter" onclick="converter(this.value)" value="0">Converter</button>
+                <button onclick="inverter()">Inverter</button>
+            </div>
+            
+
+            <div class="binario">
+                <label for="binario">Número Binario</label>
+                <input type="text" name="binario" id="binario" disabled>
+            </div>
+
+        </div>
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
